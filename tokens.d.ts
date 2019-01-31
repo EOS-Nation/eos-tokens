@@ -33,5 +33,5 @@ export interface Links {
     [link: string]: string;
 }
 
-const tokens: Tokens[]
+declare const tokens: Tokens[]
 export default tokens;
