@@ -6,5 +6,6 @@
   "desc": "GameSky Platform Currency.",
   "website": "https://gamesky.io",
   "logo": "https://raw.githubusercontent.com/BlockABC/eos-tokens/master/tokens/gameskytoken/SKY.png",
-  "links": {}
+  "links": {},
+  "whitepaper": ""
 }

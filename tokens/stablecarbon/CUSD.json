@@ -6,5 +6,6 @@
   "desc": "Carbon is a price-stable cryptocurrency that is creating a more efficient and inclusive global economy.",
   "website": "https://www.carbon.money",
   "logo": "https://raw.githubusercontent.com/BlockABC/eos-tokens/master/tokens/stablecarbon/CUSD.png",
-  "links": {}
+  "links": {},
+  "whitepaper": ""
 }

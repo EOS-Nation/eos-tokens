@@ -6,5 +6,6 @@
   "desc": "HotDice Platform Currency.",
   "website": "https://hotdice.info",
   "logo": "https://raw.githubusercontent.com/BlockABC/eos-tokens/master/tokens/hotbetstoken/HOT.png",
-  "links": {}
+  "links": {},
+  "whitepaper": ""
 }

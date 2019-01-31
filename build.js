@@ -1,14 +1,16 @@
 const fs = require('fs')
 const path = require('path')
 const glob = require('glob')
-const contracts = fs.readdirSync('./tokens')
 
 const tokens = [];
 for (const filepath of glob.sync(path.join(__dirname, "tokens", "**", "*.json"))) {
   const token = require(filepath)
   tokens.push(token)
-}
 
+  // Fix formatting issues
+  token.whitepaper = token.whitepaper || "";
+  fs.writeFileSync(filepath, JSON.stringify(token, null, 2), 'utf-8')
+}
 
 let tokensMd = '|   Logo    | Symbol      | Account Name |\n| ----------- |:------------:|:------------:|\n'
 
