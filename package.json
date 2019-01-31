@@ -27,6 +27,7 @@
     "ava": "*",
     "axios": "*",
     "glob": "*",
+    "load-json-file": "*",
     "write-json-file": "*"
   }
 }
