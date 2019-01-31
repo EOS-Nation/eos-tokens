@@ -1,0 +1,7 @@
+{
+	"HIG": {
+		"supply": "10500000000.0000 HIG",
+		"max_supply": "21000000000.0000 HIG",
+		"issuer": "higoldissuer"
+	}
+}

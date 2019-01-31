@@ -1,0 +1,7 @@
+{
+	"LUCKY": {
+		"supply": "100000000.0000 LUCKY",
+		"max_supply": "100000000.0000 LUCKY",
+		"issuer": "eoslucktoken"
+	}
+}

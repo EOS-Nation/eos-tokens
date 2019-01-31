@@ -1,0 +1,7 @@
+{
+	"BTN": {
+		"supply": "3000000000.0000 BTN",
+		"max_supply": "3000000000.0000 BTN",
+		"issuer": "eosbuttonbtn"
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"BUFF": {
+		"supply": "100000000.0000 BUFF",
+		"max_supply": "200000000.0000 BUFF",
+		"issuer": "buff123token"
+	}
+}

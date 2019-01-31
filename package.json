@@ -25,6 +25,8 @@
   "homepage": "https://github.com/BlockABC/eos-tokens#readme",
   "devDependencies": {
     "ava": "*",
-    "glob": "*"
+    "axios": "*",
+    "glob": "*",
+    "write-json-file": "*"
   }
 }

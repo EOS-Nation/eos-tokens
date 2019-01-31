@@ -1,0 +1,7 @@
+{
+	"TRYBE": {
+		"supply": "1000000000.0000 TRYBE",
+		"max_supply": "2000000000.0000 TRYBE",
+		"issuer": "trybenetwork"
+	}
+}

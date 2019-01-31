@@ -1,0 +1,7 @@
+{
+	"JUST": {
+		"supply": "50000000.0000 JUST",
+		"max_supply": "100000000.0000 JUST",
+		"issuer": "eosjusttoken"
+	}
+}

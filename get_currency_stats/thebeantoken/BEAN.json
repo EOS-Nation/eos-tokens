@@ -1,0 +1,7 @@
+{
+	"BEAN": {
+		"supply": "10000000000.0000 BEAN",
+		"max_supply": "10000000000 BEAN",
+		"issuer": "thebeantoken"
+	}
+}

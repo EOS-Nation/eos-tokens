@@ -1,0 +1,7 @@
+{
+	"EETH": {
+		"supply": "5012000001.0000 EETH",
+		"max_supply": "10000000000.0000 EETH",
+		"issuer": "ethsidechain"
+	}
+}
