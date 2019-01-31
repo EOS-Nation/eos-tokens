@@ -8,9 +8,9 @@ export interface Tokens {
     name:        string;
     account:     string;
     symbol:      string;
-    precision?:  number;
+    precision:   number;
     logo:        string;
-    website?:    null | string;
+    website:     null | string;
     desc?:       DescClass | string;
     links?:      Links;
     whitepaper?: string;

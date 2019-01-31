@@ -3,6 +3,7 @@
   "account": "ramtokenmoon",
   "symbol": "RAM",
   "precision": 0,
+  "website": null,
   "logo": "https://raw.githubusercontent.com/BlockABC/eos-tokens/master/tokens/ramtokenmoon/RAM.png",
   "links": {}
 }

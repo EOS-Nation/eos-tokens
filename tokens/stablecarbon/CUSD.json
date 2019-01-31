@@ -3,6 +3,7 @@
   "account": "stablecarbon",
   "symbol": "CUSD",
   "precision": 2,
+  "website": "https://www.carbon.money",
   "logo": "https://raw.githubusercontent.com/BlockABC/eos-tokens/master/tokens/stablecarbon/CUSD.png",
   "links": {}
 }

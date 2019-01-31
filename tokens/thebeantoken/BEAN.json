@@ -3,6 +3,7 @@
   "account": "thebeantoken",
   "symbol": "BEAN",
   "precision": 4,
+  "website": "https://eos.cafe",
   "logo": "https://raw.githubusercontent.com/BlockABC/eos-tokens/master/tokens/thebeantoken/BEAN.png",
   "links": {}
 }
