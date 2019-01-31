@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/BlockABC/eos-tokens#readme",
   "devDependencies": {
-    "ava": "*"
+    "ava": "*",
+    "glob": "*"
   }
 }

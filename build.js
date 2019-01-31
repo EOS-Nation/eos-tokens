@@ -1,21 +1,23 @@
 const fs = require('fs')
+const path = require('path')
+const glob = require('glob')
 const contracts = fs.readdirSync('./tokens')
 
-const tokens = contracts.reduce((reduced, contract) => {
-  const tokenFiles = fs.readdirSync(`./tokens/${contract}`)
+const tokens = [];
+for (const filepath of glob.sync(path.join(__dirname, "tokens", "**", "*.json"))) {
+  const token = require(filepath)
+  tokens.push(token)
+}
 
-  tokenFiles.forEach(tokenFile => {
-    if (tokenFile.match(/\.json$/)) {
-      const token = require(`./tokens/${contract}/${tokenFile}`)
-      reduced.push(token)
-    }
-  })
-  return reduced
-}, [])
 
-let tokensMd = tokens.reduce((reduced, token) => {
-  return reduced + `|  <img src="https://raw.githubusercontent.com/BlockABC/eos-tokens/master/tokens/${token.account}/${token.symbol}.png" width=30 />  | [${token.symbol}](https://github.com/BlockABC/eos-tokens/blob/master/tokens/${token.account}/${token.symbol}.json) | [${token.account}](https://eospark.com/contract/${token.account}) |\n`
-}, '|   Logo    | Symbol      | Account Name |\n| ----------- |:------------:|:------------:|\n')
+let tokensMd = '|   Logo    | Symbol      | Account Name |\n| ----------- |:------------:|:------------:|\n'
+
+for (const token of tokens) {
+  const logo = `<img src="https://raw.githubusercontent.com/BlockABC/eos-tokens/master/tokens/${token.account}/${token.symbol}.png" width=30 />`
+  const symbol = `[${token.symbol}](https://github.com/BlockABC/eos-tokens/blob/master/tokens/${token.account}/${token.symbol}.json)`
+  const account = `[${token.account}](https://eospark.com/contract/${token.account})`
+  tokensMd += `| ${logo} | ${symbol} | ${account} |\n`
+}
 
 tokensMd = '<!-- token_list_start -->\n' + tokensMd + '<!-- token_list_end -->'
 
