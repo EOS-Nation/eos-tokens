@@ -11,12 +11,12 @@ export interface Tokens {
     precision:   number;
     logo:        string;
     website:     string;
-    desc:        DescClass | string;
+    desc:        Description | string;
     links:       Links;
-    whitepaper?:  string;
+    whitepaper:  string;
 }
 
-export interface DescClass {
+export interface Description {
     en:  string;
     [language: string]: string;
 }
@@ -30,4 +30,8 @@ export interface Links {
     github?:   string;
     steemit?:  string;
     wechat?:   string;
+    [link: string]: string;
 }
+
+const tokens: Tokens[]
+export default tokens;

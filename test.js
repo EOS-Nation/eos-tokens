@@ -1,7 +1,6 @@
 import test from 'ava';
 import tokens from './';
 
-
 for (const token of tokens) {
     const {account, name} = token;
     const label = `[${account}::${name}]`;
