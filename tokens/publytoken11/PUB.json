@@ -3,7 +3,8 @@
   "account": "publytoken11",
   "symbol": "PUB",
   "precision": 4,
-  "website": null,
+  "desc": "",
+  "website": "",
   "logo": "https://raw.githubusercontent.com/BlockABC/eos-tokens/master/tokens/publytoken11/PUB.png",
   "links": {}
 }

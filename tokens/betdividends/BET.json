@@ -3,7 +3,8 @@
   "account": "betdividends",
   "symbol": "BET",
   "precision": 4,
-  "website": "https://eosbet.io/",
+  "desc": "",
+  "website": "https://eosbet.io",
   "logo": "https://raw.githubusercontent.com/BlockABC/eos-tokens/master/tokens/betdividends/BET.png",
   "links": {}
 }

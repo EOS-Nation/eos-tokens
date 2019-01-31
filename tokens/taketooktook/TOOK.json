@@ -3,7 +3,8 @@
   "account": "taketooktook",
   "symbol": "TOOK",
   "precision": 4,
-  "website": null,
+  "desc": "",
+  "website": "",
   "logo": "https://raw.githubusercontent.com/BlockABC/eos-tokens/master/tokens/taketooktook/TOOK.jpg",
   "links": {}
 }

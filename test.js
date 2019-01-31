@@ -1,16 +1,17 @@
 import test from 'ava';
 import tokens from './';
 
-test('precision does not exist', t => {
-    for (const token of tokens) {
-        if (token.precision === undefined) t.fail(`[${token.account} ${token.name}] is missing precision`)
-    }
-    t.pass();
-});
 
-test('website does not exist', t => {
-    for (const token of tokens) {
-        if (token.website === undefined) t.fail(`[${token.account} ${token.name}] is missing website`)
+for (const token of tokens) {
+    const {account, name} = token;
+    const label = `[${account}::${name}]`;
+
+    const required = ["name", "account", "symbol", "precision", "logo", "website", "desc", "links"];
+
+    for (const field of required) {
+        test(`${label} ${field}`, t => {
+            if (token[field] === undefined) t.fail(`${label} ${field} is missing`)
+            t.pass()
+        })
     }
-    t.pass();
-});
+}

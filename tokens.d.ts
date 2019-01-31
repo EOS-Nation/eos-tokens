@@ -10,10 +10,10 @@ export interface Tokens {
     symbol:      string;
     precision:   number;
     logo:        string;
-    website:     null | string;
-    desc?:       DescClass | string;
-    links?:      Links;
-    whitepaper?: string;
+    website:     string;
+    desc:        DescClass | string;
+    links:       Links;
+    whitepaper?:  string;
 }
 
 export interface DescClass {
