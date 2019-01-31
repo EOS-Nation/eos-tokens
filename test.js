@@ -28,6 +28,7 @@ for (const token of tokens) {
         let [major, minor] = amount.split('.')
         if (!minor) minor = ""
         if (minor.length !== precision) t.fail(`${label} precision is mismatched (${minor.length} !== ${precision})`)
+        if (!stats[symbol].max_supply) t.fail(`${label} max_supply is missing`)
         t.pass()
     })
 }
