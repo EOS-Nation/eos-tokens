@@ -21,15 +21,13 @@ for (const token of tokens) {
     // must `download.js` first
     const statsfilepath = path.join(__dirname, "get_currency_stats", account, symbol + ".json")
 
-    if (fs.existsSync(statsfilepath)) {
+    test(`${label} get_currency_stats`, t => {
+        if (!fs.existsSync(statsfilepath)) t.fail(`${label} missing <get_currency_stats>`)
         const stats = load.sync(statsfilepath)
-
-        test(`${label} get_currency_stats`, t => {
-            const [amount, sym] = stats[symbol].supply.split(' ');
-            let [major, minor] = amount.split('.')
-            if (!minor) minor = ""
-            if (minor.length !== precision) t.fail(`${label} precision is mismatched (${minor.length} !== ${precision})`)
-            t.pass()
-        })
-    }
+        const [amount, sym] = stats[symbol].supply.split(' ');
+        let [major, minor] = amount.split('.')
+        if (!minor) minor = ""
+        if (minor.length !== precision) t.fail(`${label} precision is mismatched (${minor.length} !== ${precision})`)
+        t.pass()
+    })
 }
