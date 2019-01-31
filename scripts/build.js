@@ -3,7 +3,7 @@ const path = require('path')
 const glob = require('glob')
 
 const tokens = [];
-for (const filepath of glob.sync(path.join(__dirname, "tokens", "**", "*.json"))) {
+for (const filepath of glob.sync(path.join(__dirname, "..", "tokens", "**", "*.json"))) {
   const token = require(filepath)
   tokens.push(token)
 
@@ -23,9 +23,9 @@ for (const token of tokens) {
 
 tokensMd = '<!-- token_list_start -->\n' + tokensMd + '<!-- token_list_end -->'
 
-let readme = fs.readFileSync('./readme.md', 'utf-8')
+let readme = fs.readFileSync(path.join(__dirname, '..', './readme.md'), 'utf-8')
 
 readme = readme.replace(/<!-- token_list_start -->(.|\s)*<!-- token_list_end -->/, tokensMd)
 
-fs.writeFileSync('./readme.md', readme, 'utf-8')
-fs.writeFileSync('./tokens.json', JSON.stringify(tokens, null, 2), 'utf-8')
+fs.writeFileSync(path.join(__dirname, '..', './readme.md'), readme, 'utf-8')
+fs.writeFileSync(path.join(__dirname, '..', './tokens.json'), JSON.stringify(tokens, null, 2), 'utf-8')

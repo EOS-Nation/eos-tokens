@@ -6,7 +6,9 @@
   "types": "tokens.d.ts",
   "scripts": {
     "test": "npm run prepare && ava",
-    "prepare": "node ./build.js"
+    "prepare": "node ./scripts/build.js",
+    "download": "node ./scripts/download.js",
+    "format": "node ./scripts/format.js"
   },
   "repository": {
     "type": "git",

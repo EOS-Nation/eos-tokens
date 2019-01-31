@@ -16,16 +16,14 @@ async function get_currency_stats(code, symbol) {
 }
 
 async function main() {
-    for (const filepath of glob.sync(path.join(__dirname, "tokens", "**", "*.json"))) {
+    for (const filepath of glob.sync(path.join(__dirname, "..", "tokens", "**", "*.json"))) {
         const token = require(filepath)
         const {account, symbol} = token;
-        const label = `[${account}::${symbol}]`;
 
-        const statsfilepath = filepath.replace(path.join(__dirname, "tokens"), path.join(__dirname, "get_currency_stats"));
+        const statsfilepath = filepath.replace(path.join(__dirname, "..", "tokens"), path.join(__dirname, "get_currency_stats"));
 
         if (!fs.existsSync(statsfilepath)) {
             const stats = await get_currency_stats(account, symbol)
-            console.log(stats)
             write.sync(statsfilepath, stats)
         }
     }
