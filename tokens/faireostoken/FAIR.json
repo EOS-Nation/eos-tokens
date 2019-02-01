@@ -1,7 +1,8 @@
 {
-  "name": "FAIR",
+  "name": "",
   "account": "faireostoken",
   "symbol": "FAIR",
+  "issuer": "faireostoken",
   "precision": 4,
   "desc": "21 points of fairness based on EOS.",
   "website": "https://faireos.com",

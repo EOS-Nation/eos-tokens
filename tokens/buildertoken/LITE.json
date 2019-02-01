@@ -1,7 +1,8 @@
 {
-  "name": "LITE",
+  "name": "",
   "account": "buildertoken",
   "symbol": "LITE",
+  "issuer": "eosliteworld",
   "precision": 4,
   "desc": "EOS Lite - Manage EOS assets directly through the browsers .",
   "website": "https://www.eoslite.co",

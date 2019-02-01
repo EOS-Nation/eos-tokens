@@ -1,7 +1,8 @@
 {
-  "name": "FC",
+  "name": "",
   "account": "fcfundadmins",
   "symbol": "FC",
+  "issuer": "fcfundissuer",
   "precision": 4,
   "desc": "Classic dice game.",
   "website": "https://eosall.in",

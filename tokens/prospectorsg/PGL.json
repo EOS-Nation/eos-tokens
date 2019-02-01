@@ -1,7 +1,8 @@
 {
-  "name": "PGL",
+  "name": "",
   "account": "prospectorsg",
   "symbol": "PGL",
+  "issuer": "prospectorsg",
   "precision": 4,
   "desc": "The Massive Multiplayer Online Real-Time Economic Strategy powered by EOS.",
   "website": "https://prospectors.io",

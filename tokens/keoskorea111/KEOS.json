@@ -1,7 +1,8 @@
 {
-  "name": "KEOS",
+  "name": "",
   "account": "keoskorea111",
   "symbol": "KEOS",
+  "issuer": "keoskorea111",
   "precision": 4,
   "desc": "KEOS is a decentralized autonomous community in Korea, which aims to serve the Korea EOS communities.",
   "website": "https://www.keos.kr",

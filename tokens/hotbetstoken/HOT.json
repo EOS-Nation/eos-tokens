@@ -1,7 +1,8 @@
 {
-  "name": "HOT",
+  "name": "",
   "account": "hotbetstoken",
   "symbol": "HOT",
+  "issuer": "hotbetsadmin",
   "precision": 4,
   "desc": "HotDice Platform Currency.",
   "website": "https://hotdice.info",

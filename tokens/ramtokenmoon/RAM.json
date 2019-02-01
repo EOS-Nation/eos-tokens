@@ -1,7 +1,8 @@
 {
-  "name": "RAM",
+  "name": "",
   "account": "ramtokenmoon",
   "symbol": "RAM",
+  "issuer": "ramtokendapp",
   "precision": 0,
   "desc": "",
   "website": "",

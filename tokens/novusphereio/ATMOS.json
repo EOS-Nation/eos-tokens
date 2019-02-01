@@ -1,7 +1,8 @@
 {
-  "name": "ATMOS",
+  "name": "",
   "account": "novusphereio",
   "symbol": "ATMOS",
+  "issuer": "novusphereio",
   "precision": 3,
   "desc": "",
   "website": "https://novusphere.io",

@@ -1,7 +1,8 @@
 {
-  "name": "DY",
+  "name": "",
   "account": "eosdyeosiody",
   "symbol": "DY",
+  "issuer": "eosdyeosiody",
   "precision": 4,
   "desc": "Duanyou connotation community is built on the EOSIO block chain ecosystem, using the decentralization and non-tampering attributes of block chain to start our connotation world anew!",
   "website": "https://amuseos.io",

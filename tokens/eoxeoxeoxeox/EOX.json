@@ -1,7 +1,8 @@
 {
-  "name": "EOX",
+  "name": "",
   "account": "eoxeoxeoxeox",
   "symbol": "EOX",
+  "issuer": "eoxeoxeoxeox",
   "precision": 4,
   "desc": "EOX is a decentralized e-commerce platform.",
   "website": "https://www.eoxlab.io",

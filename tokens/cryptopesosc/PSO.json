@@ -1,7 +1,8 @@
 {
-  "name": "PSO",
+  "name": "",
   "account": "cryptopesosc",
   "symbol": "PSO",
+  "issuer": "cryptopesosc",
   "precision": 4,
   "desc": "Peso Economy-- a modern economic plan in Venezuela and Latin America.",
   "website": "https://eosvenezuela.io",

@@ -1,7 +1,8 @@
 {
-  "name": "EOS AUCTION",
+  "name": "",
   "account": "eosauctionpt",
   "symbol": "EAP",
+  "issuer": "eosauctionpt",
   "precision": 4,
   "desc": {
     "en": "An online auction platform built on the EOS blockchain, EAP aims to provide users with a decentralised, scalable and fair auction experience.",

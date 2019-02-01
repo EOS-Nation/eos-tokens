@@ -1,7 +1,8 @@
 {
-  "name": "CRASH",
+  "name": "",
   "account": "eoscrashplay",
   "symbol": "CRASH",
+  "issuer": "eoscrashplay",
   "precision": 4,
   "desc": "EOS Crash is a multi-player EOS gambling game.",
   "website": "https://game.eoscrash.app",

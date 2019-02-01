@@ -1,7 +1,8 @@
 {
-  "name": "ZION",
+  "name": "",
   "account": "ziongameseos",
   "symbol": "ZION",
+  "issuer": "ziongameseos",
   "precision": 4,
   "desc": "Blockchain entertainment platform based on EOS",
   "website": "https://zion.games",

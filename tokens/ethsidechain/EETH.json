@@ -1,7 +1,8 @@
 {
-  "name": "EETH",
+  "name": "",
   "account": "ethsidechain",
   "symbol": "EETH",
+  "issuer": "ethsidechain",
   "precision": 4,
   "desc": "EOS side chain, realize EOS ecology and ether square ecology interworking.",
   "website": "http://anyos.io",

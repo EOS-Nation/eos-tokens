@@ -1,7 +1,8 @@
 {
-  "name": "NEB",
+  "name": "",
   "account": "nebulatokenn",
   "symbol": "NEB",
+  "issuer": "nebulatokenn",
   "precision": 4,
   "desc": "",
   "website": "https://nebulaprotocol.com",

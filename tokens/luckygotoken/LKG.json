@@ -1,7 +1,8 @@
 {
-  "name": "LKG",
+  "name": "",
   "account": "luckygotoken",
   "symbol": "LKG",
+  "issuer": "luckygotoken",
   "precision": 4,
   "desc": "A good platform for centralization of games.",
   "website": "https://www.luckygo.one",

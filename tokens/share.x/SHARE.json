@@ -1,7 +1,8 @@
 {
-  "name": "SHARE",
+  "name": "",
   "account": "share.x",
   "symbol": "SHARE",
+  "issuer": "share.x",
   "precision": 4,
   "desc": "SHARE is an EOSIO app that allows users to SHARE their wonderful lives, including moments, video, commonweal and knowledge q&amp;a with EOSIO.",
   "website": "https://eoshare.org",

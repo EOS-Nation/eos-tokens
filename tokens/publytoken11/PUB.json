@@ -1,7 +1,8 @@
 {
-  "name": "PUB",
+  "name": "",
   "account": "publytoken11",
   "symbol": "PUB",
+  "issuer": "publytoken11",
   "precision": 4,
   "desc": "",
   "website": "",

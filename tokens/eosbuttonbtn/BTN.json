@@ -1,7 +1,8 @@
 {
-  "name": "BTN",
+  "name": "",
   "account": "eosbuttonbtn",
   "symbol": "BTN",
+  "issuer": "eosbuttonbtn",
   "precision": 4,
   "desc": "BTN inspired by The Button's block chain games.",
   "website": "https://eosbutton.io",

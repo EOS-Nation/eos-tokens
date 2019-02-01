@@ -9,7 +9,7 @@ for (const token of tokens) {
     const label = `[${account}::${symbol}]`;
 
     // Test for required fields
-    const required = ["name", "account", "symbol", "precision", "logo", "website", "desc", "links", "whitepaper"];
+    const required = ["name", "account", "symbol", "precision", "logo", "website", "desc", "links", "whitepaper", "issuer"];
     for (const field of required) {
         test(`${label} ${field}`, t => {
             if (token[field] === undefined) t.fail(`${label} ${field} is missing`)

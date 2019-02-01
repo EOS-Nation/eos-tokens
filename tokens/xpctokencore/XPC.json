@@ -1,7 +1,8 @@
 {
-  "name": "XPC",
+  "name": "",
   "account": "xpctokencore",
   "symbol": "XPC",
+  "issuer": "xpctokencore",
   "precision": 4,
   "desc": "Valuable pet strategy battle game.",
   "website": "https://xpet.io",

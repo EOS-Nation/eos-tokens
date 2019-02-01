@@ -1,7 +1,8 @@
 {
-  "name": "EGT",
+  "name": "",
   "account": "eosiotokener",
   "symbol": "EGT",
+  "issuer": "eosiotokener",
   "precision": 4,
   "desc": "A gambling game based on EOS.",
   "website": "http://bj.eosgametoken.com",

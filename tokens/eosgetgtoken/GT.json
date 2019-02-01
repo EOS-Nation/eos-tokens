@@ -1,7 +1,8 @@
 {
-  "name": "GT",
+  "name": "",
   "account": "eosgetgtoken",
   "symbol": "GT",
+  "issuer": "eosgetadmin1",
   "precision": 4,
   "desc": "GT is a token issued by EOSGET platform, which is obtained through game mining.",
   "website": "https://dice.eosget.io",

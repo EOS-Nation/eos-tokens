@@ -1,7 +1,8 @@
 {
-  "name": "SKY",
+  "name": "",
   "account": "gameskytoken",
   "symbol": "SKY",
+  "issuer": "gameskytoken",
   "precision": 4,
   "desc": "GameSky Platform Currency.",
   "website": "https://gamesky.io",

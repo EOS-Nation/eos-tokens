@@ -1,7 +1,8 @@
 {
-  "name": "HiGold",
+  "name": "",
   "account": "higoldtokens",
   "symbol": "HIG",
+  "issuer": "higoldissuer",
   "precision": 4,
   "desc": {
     "en": "HIG is the HiGold Community token. We are dedicated to develop a cryptocurrency community focus on decentralized applications.",

@@ -1,7 +1,8 @@
 {
-  "name": "MUGL",
+  "name": "",
   "account": "mugglesspell",
   "symbol": "MUGL",
+  "issuer": "mugglesspell",
   "precision": 4,
   "desc": "Muggles is the developer team of Bancor3D, and Muggles Coin is the credentials of team distributed ownership. Every Muggles player can be a Muggles by holding a player.",
   "website": "https://bancor3d.com",

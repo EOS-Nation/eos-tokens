@@ -1,7 +1,8 @@
 {
-  "name": "BOCAI",
+  "name": "",
   "account": "eosbocai1111",
   "symbol": "BOCAI",
+  "issuer": "bocai.game",
   "precision": 4,
   "desc": "BOCAI is the token of the EOSDICE game platform which enjoying the following dividend.",
   "website": "https://eosdice.vip",

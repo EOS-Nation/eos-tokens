@@ -1,7 +1,8 @@
 {
-  "name": "TOB",
+  "name": "",
   "account": "tobetiotoken",
   "symbol": "TOB",
+  "issuer": "tobetiotoken",
   "precision": 4,
   "desc": "Gaming game platform based on EOS blockchain",
   "website": "https://tobet.one",

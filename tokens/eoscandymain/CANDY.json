@@ -1,7 +1,8 @@
 {
-  "name": "CANDY",
+  "name": "",
   "account": "eoscandymain",
   "symbol": "CANDY",
+  "issuer": "eoscandywins",
   "precision": 4,
   "desc": "The future of decentralized gaming.",
   "website": "http://candyeos.io",

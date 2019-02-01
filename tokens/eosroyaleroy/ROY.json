@@ -1,7 +1,8 @@
 {
-  "name": "ROY",
+  "name": "",
   "account": "eosroyaleroy",
   "symbol": "ROY",
+  "issuer": "eosroyaleroy",
   "precision": 4,
   "desc": "EOS based competitive guess platform.",
   "website": "https://roulette.eosroyale.com",

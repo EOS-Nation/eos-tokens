@@ -1,7 +1,8 @@
 {
-  "name": "IPOS",
+  "name": "",
   "account": "oo1122334455",
   "symbol": "IPOS",
+  "issuer": "oo1122334455",
   "precision": 4,
   "desc": {
     "en": "IPOS (InterPlanetary Operation System) a decentralized operation system base on blockchain and ipfs .",

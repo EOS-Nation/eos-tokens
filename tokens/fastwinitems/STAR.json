@@ -1,7 +1,8 @@
 {
-  "name": "STAR",
+  "name": "",
   "account": "fastwinitems",
   "symbol": "STAR",
+  "issuer": "fastwingifts",
   "precision": 0,
   "desc": "Dropping items in FASTWIN GIFTS game.",
   "website": "https://www.fastwin.io/gifts",

@@ -1,7 +1,8 @@
 {
-  "name": "BET",
+  "name": "",
   "account": "betdividends",
   "symbol": "BET",
+  "issuer": "eosbetcasino",
   "precision": 4,
   "desc": "",
   "website": "https://eosbet.io",

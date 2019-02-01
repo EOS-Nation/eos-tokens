@@ -1,7 +1,8 @@
 {
-  "name": "ECASH",
+  "name": "",
   "account": "horustokenio",
   "symbol": "ECASH",
+  "issuer": "horustokenio",
   "precision": 4,
   "desc": "ECASH can be obtained through pledge HORUS.",
   "website": "https://horuspay.io",
