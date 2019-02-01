@@ -22,14 +22,14 @@ export interface Description {
 }
 
 export interface Links {
-    twitter?:  string;
-    telegram?: string;
-    medium?:   string;
-    facebook?: string;
-    reddit?:   string;
-    github?:   string;
-    steemit?:  string;
-    wechat?:   string;
+    twitter:  string;
+    telegram: string;
+    medium:   string;
+    facebook: string;
+    reddit:   string;
+    github:   string;
+    steemit:  string;
+    wechat:   string;
     [link: string]: string;
 }
 
